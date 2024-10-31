@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>BIST Computer Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="description" content="BIST Computer Club - A community for tech enthusiasts exploring the latest advancements in computer science and technology.">
+    <meta name="theme-color" content="#0C0C1D">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="universal-background">
+        <div class="background-grid"></div>
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="BIST Computer Club Logo">
+                </a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#events">Events</a>
+                <a href="#panel">Panel</a>
+                <a href="#blog">Blog</a>
+                <a href="#">Gallery</a>
+            </div>
+
+            <div class="auth-buttons desktop-only">
+                <button class="btn btn-secondary login-btn">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <span>Login</span>
+                </button>
+                <button class="btn btn-primary register-btn">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </button>
+            </div>
+
+            <div class="mobile-menu-container">
+                <div class="mobile-menu-backdrop"></div>
+                <div class="mobile-menu-content">
+                    <!-- <div class="mobile-menu-header">
+                        <img src="logo.png" alt="BIST Computer Club Logo">
+                        <button class="mobile-menu-close" aria-label="Close menu">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div> -->
+                    <div class="mobile-nav-links">
+                        <a href="#" class="active">Home</a>
+                        <a href="#events">Events</a>
+                        <a href="#panel">Panel</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#">Gallery</a>
+                    </div>
+                    <div class="mobile-auth-buttons">
+                        <button class="btn btn-secondary login-btn">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <span>Login</span>
+                        </button>
+                        <button class="btn btn-primary register-btn">
+                            <i class="fas fa-user-plus"></i>
+                            <span>Register</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to BIST Computer Club</h1>
+                <p class="hero-description">Step into BIST's digital frontier - where passionate tech minds unite to decode tomorrow's innovations. we're not just learning about technology, we're reimagining its possibilities in the heart of computer science.</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary join-btn">
+                        <span>Join the Club</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-secondary contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        <span>Get in Touch</span>
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Active Members</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Events Hosted</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Tech Projects</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="section-container">
+            <section class="activities" id="activities">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Our Activities</h2>
+                        <p class="section-subtitle">Explore our various tech-focused activities</p>
+                    </div>
+                    <div class="activities-grid">
+                        <div class="activity-card">
+                            <div class="activity-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Coding Session</h3>
+                            <p>Join our collaborative coding sessions and enhance your programming skills.</p>
+                            <button class="btn btn-secondary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="activity-card">
+                            <div class="activity-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Workshop</h3>
+                            <p>Learn new technologies and skills from industry experts.</p>
+                            <button class="btn btn-secondary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="activity-card">
+                            <div class="activity-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3>Programming Competition</h3>
+                            <p>Test your skills against fellow programmers and win amazing prizes.</p>
+                            <button class="btn btn-secondary">
+                                <span>Learn More</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="events" id="events">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Upcoming Events</h2>
+                    <p class="section-subtitle">Join us for these exciting events and expand your knowledge</p>
+                </div>
+                <div class="card-grid event-cards">
+                    <!-- Event cards dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="panel">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Current Panel</h2>
+                    <p class="section-subtitle">Meet our dedicated team leading the club forward</p>
+                </div>
+                <div class="card-grid panel-members">
+                    <!-- Panel members dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="blog" id="blog">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Latest Articles</h2>
+                    <p class="section-subtitle">Stay updated with our latest tech insights and club activities</p>
+                </div>
+                <div class="card-grid blog-grid">
+                    <!-- Blog posts dynamically inserted here -->
+                </div>
+                <div class="section-cta">
+                    <button class="btn-primary view-all-btn">
+                        <span>View All Articles</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>BIST CC</h3>
+                    <p>Innovating today for a brighter tomorrow.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>Quick Links</h4>
+                        <a href="#">Home</a>
+                        <a href="#">Events</a>
+                        <a href="#">Panel</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="link-column">
+                        <h4>Resources</h4>
+                        <a href="#">Blog</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="link-column">
+                        <h4>Legal</h4>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 BIST Computer Club All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
