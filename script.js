@@ -508,12 +508,14 @@ function handleButtonClicks() {
   const contactBtn = document.getElementById("contact-btn");
   const mobileLoginBtn = document.getElementById("mobile-login-btn");
   const mobileRegisterBtn = document.getElementById("mobile-register-btn");
+  const joinClubBtn = document.getElementById("join-club-btn");
 
   if (heroJoinBtn) heroJoinBtn.addEventListener("click", openRegisterForm);
   if (contactBtn) contactBtn.addEventListener("click", openRegisterForm);
   if (mobileLoginBtn) mobileLoginBtn.addEventListener("click", openLoginForm);
   if (mobileRegisterBtn)
     mobileRegisterBtn.addEventListener("click", openRegisterForm);
+  if (joinClubBtn) joinClubBtn.addEventListener("click", openRegisterForm);
 }
 
 // Function to add smooth scrolling functionality
